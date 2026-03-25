@@ -1,13 +1,10 @@
 .top-part{
 font-family: "Roboto";
 background-color: #1f2937;
+background-size: cover;
 display: flex;
 flex-direction: column;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-padding:0px 120px;
+padding:40px 120px;
 }
 
 .header{
@@ -15,7 +12,8 @@ display: flex;
 flex-shrink: 0;
 flex-direction: row;
 justify-content: space-between;
-padding: 36px 0px;
+padding: 18px 0px;
+padding-bottom: 40  ;
 
 }
 
@@ -62,7 +60,7 @@ cursor: pointer;
    
 }
 
-h1{
+#web-head{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
@@ -82,6 +80,129 @@ h1{
     color: #e5e7eb;
 }
 
+/*Second layer*/
+
+.second-layer{
+    display: flex;
+    font-family: "Roboto";
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 120px;;
+}
+
+#sec-head{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.box-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.items-row1 .items-row2 .items-row3 .items-row4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+/*Third layer*/
+
+.third-layer{
+  display: flex;
+  font-family: "Roboto";
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 60px 120px;
+  align-items: center;
+
+}
+
+#qoutation{
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  padding: 0px;
+  margin: 10px;
+
+}
+
+#author{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+
+/*fourth-layer*/
+
+.fourth-layer{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  
+}
+
+.sub-box{
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  width: 650px;
+  height: 120px;
+  border-radius: 1em;
+}
+
+.left-box{
+color: #e5e7eb;
+display: flex;
+flex-direction: column;
+flex-grow: 0.4;
+}
+
+h3{
+  font-size: 24px;
+  margin-bottom: 0;
+
+}
+
+.right-box{
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+/*footer*/
+
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+#should-i{
+color: #1f2937;
+margin: 0;
+}
+
+#Copyright{
+  color: #e5e7eb;
+  font-family: "Roboto";
+  margin-bottom: 0;
+}
 
 
 
@@ -135,9 +256,6 @@ button .span-mother span:nth-child(5) {
   transition: 0.6s;
 }
 
-button .span-mother span:nth-child(6) {
-  transition: 0.7s;
-}
 
 button .span-mother2 {
   display: flex;
@@ -173,6 +291,8 @@ button .span-mother2 span:nth-child(5) {
   transition: 0.6s;
 }
 
-button .span-mother2 span:nth-child(6) {
-  transition: 0.7s;
+button.box{
+background-color: #e5e7eb;
+border: 4px solid #3882f6;
+border-radius: 1em;
 }
